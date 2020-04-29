@@ -7,5 +7,33 @@ export const colors = {
   lightHl: "#888",
   pink: "#EA3372",
   text: "#fff",
-  textSec: "#aaa",
+  textSec: "#aaa"
 };
+
+export const gs = StyleSheet.create({
+  sectionContainer: {
+    paddingVertical: 24,
+    paddingHorizontal: 32,
+    marginBottom: 8,
+    backgroundColor: colors.lightBg
+  },
+
+  rowCewnter: {
+    flexDirection: "row",
+    alignItems: "center"
+  },
+
+  rowBetween: {
+    flowDirection: "row",
+    justifyContent: "space-between"
+  },
+
+  center: {
+    alignItems: "center",
+    justifyItems: "center"
+  },
+  title: {
+    color: colors.text,
+    fontSize: 30
+  }
+});
